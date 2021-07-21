@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_layout_inputs",
+  "info": {
+    "name": "Input",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "placeHolder": {
+      "type": "string"
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary",
+      "required": true
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "default": false
+    },
+    "defaultValue": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "medium",
+        "small"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "filled",
+        "outlined",
+        "standard"
+      ],
+      "default": "standard"
+    },
+    "multiline": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "string"
+    },
+    "textAlign": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "forms",
+  "info": {
+    "name": "Form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "form": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.input"
+      ]
+    }
+  }
+}

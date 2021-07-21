@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/products/list",
+      "handler": "product.bulkCreate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/products/:id",
       "handler": "product.update",

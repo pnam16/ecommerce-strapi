@@ -34,14 +34,6 @@ module.exports = {
       price: 1.84,
       slug: "gatsby",
       status: "published",
-      Custom_field: [
-        {
-          id: 1,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -56,14 +48,6 @@ module.exports = {
       price: 1.84,
       slug: "nuxt-js",
       status: "published",
-      Custom_field: [
-        {
-          id: 2,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -81,14 +65,6 @@ module.exports = {
       price: 1.84,
       slug: "vue-js",
       status: "published",
-      Custom_field: [
-        {
-          id: 3,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -103,14 +79,6 @@ module.exports = {
       price: 1.84,
       slug: "kubernetes",
       status: "published",
-      Custom_field: [
-        {
-          id: 4,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -125,14 +93,6 @@ module.exports = {
       price: 1.84,
       slug: "docker",
       status: "published",
-      Custom_field: [
-        {
-          id: 5,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -147,14 +107,6 @@ module.exports = {
       price: 1.84,
       slug: "next-js",
       status: "published",
-      Custom_field: [
-        {
-          id: 6,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -172,14 +124,6 @@ module.exports = {
       price: 1.84,
       slug: "npm",
       status: "published",
-      Custom_field: [
-        {
-          id: 7,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -194,14 +138,6 @@ module.exports = {
       price: 1.84,
       slug: "swift",
       status: "published",
-      Custom_field: [
-        {
-          id: 8,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -220,14 +156,6 @@ module.exports = {
       price: 1.84,
       slug: "rust",
       status: "published",
-      Custom_field: [
-        {
-          id: 9,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -242,14 +170,6 @@ module.exports = {
       price: 1.84,
       slug: "sq-lite",
       status: "published",
-      Custom_field: [
-        {
-          id: 10,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -264,14 +184,6 @@ module.exports = {
       price: 1.84,
       slug: "postgre-sql",
       status: "published",
-      Custom_field: [
-        {
-          id: 11,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -287,14 +199,6 @@ module.exports = {
       price: 1.84,
       slug: "ruby-on-rails",
       status: "published",
-      Custom_field: [
-        {
-          id: 12,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -312,14 +216,6 @@ module.exports = {
       price: 1.84,
       slug: "mongo-db",
       status: "published",
-      Custom_field: [
-        {
-          id: 13,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -334,14 +230,6 @@ module.exports = {
       price: 1.84,
       slug: "laravel",
       status: "published",
-      Custom_field: [
-        {
-          id: 14,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -359,14 +247,6 @@ module.exports = {
       price: 1.84,
       slug: "graph-ql",
       status: "published",
-      Custom_field: [
-        {
-          id: 15,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -382,14 +262,6 @@ module.exports = {
       price: 1.84,
       slug: "golang",
       status: "published",
-      Custom_field: [
-        {
-          id: 16,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -404,14 +276,6 @@ module.exports = {
       price: 1.84,
       slug: "google-cloud",
       status: "published",
-      Custom_field: [
-        {
-          id: 17,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -427,14 +291,6 @@ module.exports = {
       price: 1.84,
       slug: "c-plus-plus",
       status: "published",
-      Custom_field: [
-        {
-          id: 18,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -450,14 +306,6 @@ module.exports = {
       price: 1.84,
       slug: "kotlin",
       status: "published",
-      Custom_field: [
-        {
-          id: 19,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -475,14 +323,6 @@ module.exports = {
       price: 1.84,
       slug: "react",
       status: "published",
-      Custom_field: [
-        {
-          id: 20,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -498,14 +338,6 @@ module.exports = {
       price: 1.84,
       slug: "ruby-1",
       status: "published",
-      Custom_field: [
-        {
-          id: 21,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -521,14 +353,6 @@ module.exports = {
       price: 1.84,
       slug: "python",
       status: "published",
-      Custom_field: [
-        {
-          id: 22,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -543,14 +367,6 @@ module.exports = {
       price: 1.84,
       slug: "php",
       status: "published",
-      Custom_field: [
-        {
-          id: 23,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -566,14 +382,6 @@ module.exports = {
       price: 1.84,
       slug: "linux",
       status: "published",
-      Custom_field: [
-        {
-          id: 24,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -589,14 +397,6 @@ module.exports = {
       price: 1.84,
       slug: "java",
       status: "published",
-      Custom_field: [
-        {
-          id: 25,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -611,14 +411,6 @@ module.exports = {
       price: 1.84,
       slug: "angular",
       status: "published",
-      Custom_field: [
-        {
-          id: 26,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {
@@ -633,14 +425,6 @@ module.exports = {
       price: 1.84,
       slug: "strapi",
       status: "published",
-      Custom_field: [
-        {
-          id: 27,
-          title: "Select the size of your sticker",
-          required: true,
-          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
-        },
-      ],
       image: null,
       categories: [
         {

@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/categories/list",
+      "handler": "category.bulkCreate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/categories/:id",
       "handler": "category.update",

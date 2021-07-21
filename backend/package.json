@@ -2,7 +2,7 @@
   "name": "backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,7 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "axios": "^0.21.1",
     "knex": "0.21.18",
+    "slugify": "^1.6.0",
     "sqlite3": "5.0.0",
     "strapi": "3.6.5",
     "strapi-admin": "3.6.5",
@@ -28,12 +30,10 @@
     "strapi-utils": "3.6.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "PNam"
   },
   "strapi": {
-    "uuid": "c2f1f3d3-a9d1-467d-8bab-e6746d214f70",
-    "template": "https://github.com/strapi/strapi-template-ecommerce",
-    "starter": "https://github.com/strapi/strapi-starter-next-ecommerce"
+    "uuid": "c2f1f3d3-a9d1-467d-8bab-e6746d214f70"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
