@@ -1822,7 +1822,7 @@
         ]
       }
     },
-    "/products/list": {
+    "/products/seed": {
       "post": {
         "deprecated": false,
         "description": "Create a new record",

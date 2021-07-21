@@ -34,7 +34,7 @@
     },
     {
       "method": "POST",
-      "path": "/products/list",
+      "path": "/products/seed",
       "handler": "product.bulkCreate",
       "config": {
         "policies": []
