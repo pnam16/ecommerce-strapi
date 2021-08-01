@@ -1,0 +1,31 @@
+{
+  "name": "strapi-plugin-wysiwyg",
+  "version": "0.0.0",
+  "description": "Wysiwyg editor using Quill",
+  "strapi": {
+    "name": "wysiwyg",
+    "icon": "plug",
+    "description": "Description of wysiwyg plugin."
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-quill": "^1.3.5"
+  },
+  "author": {
+    "name": "Ansuz Development",
+    "email": "ansuzdev@gmail.com",
+    "url": "https://ansuzdev.com"
+  },
+  "maintainers": [
+    {
+      "name": "Ansuz Development",
+      "email": "ansuzdev@gmail.com",
+      "url": "https://ansuzdev.com"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
