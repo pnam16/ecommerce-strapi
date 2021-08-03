@@ -14,11 +14,6 @@ module.exports = {
       }
     },
   },
-  /**
-   * Retrieve a record.
-   *
-   * @return {Object}
-   */
   async findOne(ctx) {
     const { slug } = ctx.params;
 
@@ -36,4 +31,20 @@ module.exports = {
 
     return Promise.all(list);
   },
+  // [
+  //   "Balo Túi Ví",
+  //   "Mắt kính",
+  //   "Phụ kiện nam",
+  //   "Quần",
+  //   "Thắt Lưng",
+  //   "Trang Sức Nam",
+  //   "Áo khoác  Áo vest",
+  //   "Áo nỉ Áo len",
+  //   "Áo sơ mi",
+  //   "Áo thun",
+  //   "Đồ Trung Niên",
+  //   "Đồ bộ Đồ mặc nhà",
+  //   "Đồ lót",
+  //   "Đồ đôi"
+  // ]
 };

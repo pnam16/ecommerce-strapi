@@ -50,6 +50,9 @@
       ],
       "default": "published",
       "required": true
+    },
+    "rate": {
+      "type": "float"
     }
   }
 }

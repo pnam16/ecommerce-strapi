@@ -718,6 +718,9 @@
               "draft",
               "published"
             ]
+          },
+          "rate": {
+            "type": "number"
           }
         }
       },
@@ -753,6 +756,9 @@
               "draft",
               "published"
             ]
+          },
+          "rate": {
+            "type": "number"
           },
           "created_by": {
             "type": "string"
