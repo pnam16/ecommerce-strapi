@@ -9,24 +9,24 @@ export const initialState = {
 // eslint-disable-next-line consistent-return
 const reducer = (state, action) => produce(state, draftState => {
   switch (action.type) {
-    case "LOADING": {
-      draftState = initialState;
-      break;
-    }
-    case "GET_DATA_SUCCEEDED": {
-      draftState.files = action.files;
-      draftState.isLoading = false;
-      break;
-    }
-    case "GET_DATA_ERROR": {
-      draftState = {
-        ...initialState,
-        isLoading: false,
-      };
-      break;
-    }
-    default:
-      return draftState;
+  case "LOADING": {
+    draftState = initialState;
+    break;
+  }
+  case "GET_DATA_SUCCEEDED": {
+    draftState.files = action.files;
+    draftState.isLoading = false;
+    break;
+  }
+  case "GET_DATA_ERROR": {
+    draftState = {
+      ...initialState,
+      isLoading: false,
+    };
+    break;
+  }
+  default:
+    return draftState;
   }
 });
 

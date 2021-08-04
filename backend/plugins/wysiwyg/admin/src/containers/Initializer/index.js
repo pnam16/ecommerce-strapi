@@ -4,11 +4,11 @@
  *
  */
 
-import {useEffect, useRef} from "react";
+import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import pluginId from "../../pluginId";
 
-const Initializer = ({updatePlugin}) => {
+const Initializer = ({ updatePlugin }) => {
   const ref = useRef();
   ref.current = updatePlugin;
 

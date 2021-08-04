@@ -1,7 +1,6 @@
-'use strict';
+"use strict";
 
 const fs = require("fs");
-const path = require("path");
 
 const {
   categories,
@@ -28,12 +27,12 @@ const setDefaultPermissions = async () => {
   await Promise.all(
     permissions_applications.map(p =>
       strapi
-      .query("permission", "users-permissions")
-      .update({
-        id: p.id
-      }, {
-        enabled: true
-      })
+        .query("permission", "users-permissions")
+        .update({
+          id: p.id
+        }, {
+          enabled: true
+        })
     )
   );
 };
@@ -69,7 +68,7 @@ const createSeedData = async (files) => {
 
     const size = getFilesizeInBytes(file);
     const array = file.split(".");
-    const ext = array[array.length - 1]
+    const ext = array[array.length - 1];
     const mimeType = `image/.${ext}`;
     const image = {
       path: file,
@@ -77,9 +76,8 @@ const createSeedData = async (files) => {
       size,
       type: mimeType
     };
-    return image
-  }
-
+    return image;
+  };
 
   const categoriesPromises = categories.map(({
     ...rest
@@ -89,20 +87,19 @@ const createSeedData = async (files) => {
     });
   });
 
-
   const productsPromises = products.map(async product => {
-    const image = handleFiles(product)
+    const image = handleFiles(product);
 
     const files = {
       image
     };
 
     try {
-      const entry = await strapi.query('product').create(product);
+      const entry = await strapi.query("product").create(product);
 
       if (files) {
         await strapi.entityService.uploadFiles(entry, files, {
-          model: 'product'
+          model: "product"
         });
       }
     } catch (e) {
@@ -120,7 +117,7 @@ module.exports = async () => {
   if (shouldSetDefaultPermissions) {
     try {
       console.log("Setting up your starter...");
-      const files = fs.readdirSync(`./data/uploads`);
+      const files = fs.readdirSync("./data/uploads");
       await setDefaultPermissions();
       await createSeedData(files);
       console.log("Ready to go");

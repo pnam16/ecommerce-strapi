@@ -1,16 +1,16 @@
-const { sanitizeEntity } = require('strapi-utils');
-const slugify = require('slugify');
+const { sanitizeEntity } = require("strapi-utils");
+const slugify = require("slugify");
 
 module.exports = {
   lifecycles: {
     async beforeCreate(data) {
       if (data.title) {
-        data.slug = slugify(data.title, {lower: true});
+        data.slug = slugify(data.title, { lower: true });
       }
     },
     async beforeUpdate(params, data) {
       if (data.title) {
-        data.slug = slugify(data.title, {lower: true});
+        data.slug = slugify(data.title, { lower: true });
       }
     },
   },
@@ -26,8 +26,8 @@ module.exports = {
     const list = ctx.request.body;
     list.map(name => strapi.services.category.create({
       name,
-      slug: slugify(name, {lower: true})
-     }))
+      slug: slugify(name, { lower: true })
+    }));
 
     return Promise.all(list);
   },

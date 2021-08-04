@@ -1,15 +1,15 @@
-import {useEffect, useReducer} from "react";
-import {request} from "strapi-helper-plugin";
-import reducer, {initialState} from "./reducer";
+import { useEffect, useReducer } from "react";
+import { request } from "strapi-helper-plugin";
+import reducer, { initialState } from "./reducer";
 
 const useDashboard = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const fetchDashboardData = async () => {
-    dispatch({type: "LOADING"});
+    dispatch({ type: "LOADING" });
 
     try {
-      const files = await request("/upload/files", {method: "GET"});
+      const files = await request("/upload/files", { method: "GET" });
 
       dispatch({
         type: "GET_DATA_SUCCEEDED",
@@ -22,14 +22,14 @@ const useDashboard = () => {
       // eslint-disable-next-line no-undef
       strapi.notification.toggle({
         type: "warning",
-        message: {id: "notification.error"},
+        message: { id: "notification.error" },
       });
     }
   };
 
   useEffect(() => fetchDashboardData(), []);
 
-  return {...state, getData: fetchDashboardData};
+  return { ...state, getData: fetchDashboardData };
 };
 
 export default useDashboard;

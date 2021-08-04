@@ -1,11 +1,14 @@
 {
   "parser": "babel-eslint",
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "env": {
     "commonjs": true,
     "es6": true,
     "node": true,
-    "browser": false
+    "browser": true
   },
   "parserOptions": {
     "ecmaFeatures": {
@@ -18,10 +21,59 @@
     "strapi": true
   },
   "rules": {
-    "indent": ["error", 2, { "SwitchCase": 1 }],
-    "linebreak-style": ["error", "unix"],
-    "no-console": 0,
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"]
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "import/prefer-default-export": 0,
+    "react/react-in-jsx-scope": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "ignoredNodes": [
+          "TemplateLiteral"
+        ]
+      }
+    ],
+    "no-multi-spaces": "error",
+    "space-before-blocks": "error",
+    "react/jsx-uses-vars": 1,
+    "no-unused-vars": 1,
+    "react/jsx-filename-extension": [
+      0
+    ],
+    "react/jsx-props-no-spreading": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 80,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreComments": true
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxBOF": 0,
+        "maxEOF": 1
+      }
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ]
   }
 }

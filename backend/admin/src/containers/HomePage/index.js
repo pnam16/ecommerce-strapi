@@ -1,21 +1,19 @@
-import React, {memo, useMemo} from "react";
+import React, { memo, useMemo } from "react";
 
-import {LoadingIndicatorPage} from "strapi-helper-plugin";
-import {FormattedMessage} from "react-intl";
+import { LoadingIndicatorPage } from "strapi-helper-plugin";
+import { FormattedMessage } from "react-intl";
 import PageTitle from "../../components/PageTitle";
-import {useDashboard} from "../../hooks";
+import { useDashboard } from "../../hooks";
 
 import {
   Block, Container, P, Separator,
 } from "./components";
 
-const fontSize = {fontSize: 20};
-const smallFontSize = {fontSize: 16};
+const fontSize = { fontSize: 20 };
 
 const HomePage = () => {
   const {
     files,
-    dbsize,
     isLoading,
   } = useDashboard();
 
@@ -44,7 +42,7 @@ const HomePage = () => {
           <div className="col-lg-10 col-md-12">
             <Block>
               <h2 id="mainHeader">Wellcome</h2>
-              <Separator style={{marginTop: 18, marginBottom: 18}} />
+              <Separator style={{ marginTop: 18, marginBottom: 18 }} />
               <P>Google analyze</P>
               <div className="row">
                 <div className="col-lg-4 col-md-12">
@@ -87,7 +85,7 @@ const HomePage = () => {
                   </Block>
                 </div>
               </div>
-              <Separator style={{marginTop: 18, marginBottom: 18}} />
+              <Separator style={{ marginTop: 18, marginBottom: 18 }} />
             </Block>
           </div>
         </div>

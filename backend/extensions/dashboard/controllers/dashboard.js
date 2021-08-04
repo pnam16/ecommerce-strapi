@@ -9,6 +9,6 @@ module.exports = {
       TABLE_SCHEMA = "${ process.env.DATABASE_NAME }";`,
     );
 
-    ctx.send({data: result[0][0].SIZE});
+    ctx.send({ data: result[0][0].SIZE });
   },
 };
