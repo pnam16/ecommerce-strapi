@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "checked",
+        "paid",
+        "cancle"
+      ],
+      "required": true,
+      "default": "pending"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "user": {
+      "unique": true,
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "orders"
+    },
+    "note": {
+      "type": "richtext"
+    },
+    "order_details": {
+      "via": "order",
+      "collection": "order-detail"
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

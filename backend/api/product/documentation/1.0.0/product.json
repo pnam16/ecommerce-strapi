@@ -591,7 +591,6 @@
         "required": [
           "id",
           "title",
-          "description",
           "image",
           "status"
         ],
@@ -600,9 +599,6 @@
             "type": "string"
           },
           "title": {
-            "type": "string"
-          },
-          "description": {
             "type": "string"
           },
           "price": {
@@ -721,20 +717,47 @@
           },
           "rate": {
             "type": "number"
+          },
+          "order_details": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "number"
+                },
+                "product": {
+                  "type": "string"
+                },
+                "order": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "description": {
+            "type": "string"
           }
         }
       },
       "NewProduct": {
         "required": [
           "title",
-          "description",
           "status"
         ],
         "properties": {
           "title": {
-            "type": "string"
-          },
-          "description": {
             "type": "string"
           },
           "price": {
@@ -759,6 +782,15 @@
           },
           "rate": {
             "type": "number"
+          },
+          "order_details": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

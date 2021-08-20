@@ -15,10 +15,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
     "price": {
       "type": "float"
     },
@@ -53,6 +49,14 @@
     },
     "rate": {
       "type": "float"
+    },
+    "order_details": {
+      "via": "product",
+      "collection": "order-detail"
+    },
+    "description": {
+      "type": "richtext",
+      "required": false
     }
   }
 }

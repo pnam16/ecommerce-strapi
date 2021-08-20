@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_invoice_ingredients",
+  "info": {
+    "name": "Ingredients",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "model": "product"
+    }
+  }
+}

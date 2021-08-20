@@ -9,7 +9,7 @@ const useDashboard = () => {
     dispatch({ type: "LOADING" });
 
     try {
-      const files = await request("/upload/files", { method: "GET" });
+      const files = await request("/upload/files?_limit=5000", { method: "GET" });
 
       dispatch({
         type: "GET_DATA_SUCCEEDED",

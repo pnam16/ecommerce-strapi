@@ -48,13 +48,13 @@ const HomePage = () => {
                 <div className="col-lg-4 col-md-12">
                   <Block>
                     <P>User</P>
-                    <div style={fontSize}>1234</div>
+                    <div style={fontSize}>525</div>
                   </Block>
                 </div>
                 <div className="col-lg-4 col-md-12">
                   <Block>
                     <P>New user</P>
-                    <div style={fontSize}>10</div>
+                    <div style={fontSize}>25</div>
                   </Block>
                 </div>
                 <div className="col-lg-4 col-md-12">

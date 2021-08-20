@@ -609,7 +609,6 @@
               "required": [
                 "id",
                 "title",
-                "description",
                 "image",
                 "status"
               ],
@@ -618,9 +617,6 @@
                   "type": "string"
                 },
                 "title": {
-                  "type": "string"
-                },
-                "description": {
                   "type": "string"
                 },
                 "price": {
@@ -647,6 +643,15 @@
                 },
                 "rate": {
                   "type": "number"
+                },
+                "order_details": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "description": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
