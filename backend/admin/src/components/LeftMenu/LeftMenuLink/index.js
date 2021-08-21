@@ -9,7 +9,14 @@ import PropTypes from "prop-types";
 
 import LeftMenuLinkContent from "./LeftMenuLinkContent";
 
-const LeftMenuLink = ({ destination, iconName, label, location, notificationsCount, search }) => {
+const LeftMenuLink = ({
+  destination,
+  iconName,
+  label,
+  location,
+  notificationsCount,
+  search
+}) => {
   return (
     <LeftMenuLinkContent
       destination={destination}

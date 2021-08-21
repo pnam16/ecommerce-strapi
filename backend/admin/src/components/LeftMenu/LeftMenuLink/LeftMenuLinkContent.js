@@ -75,7 +75,8 @@ const LeftMenuLinkContent = ({
     >
       <LeftMenuIcon icon={iconName} />
       {content}
-      {notificationsCount > 0 && <NotificationCount count={notificationsCount} />}
+      {notificationsCount > 0
+        && <NotificationCount count={notificationsCount} />}
     </A>
   );
 };

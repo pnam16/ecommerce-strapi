@@ -1,7 +1,5 @@
 "use strict";
 
-const { addListener } = require("strapi-utils/lib/logger");
-
 /**
  * Order.js controller
  *

@@ -53,7 +53,11 @@ const LeftMenuLinkHeader = ({ section, searchable, setSearch, search }) => {
           </div>
           <FormattedMessage id="components.Search.placeholder">
             {message => (
-              <Search ref={ref} onChange={handleChange} value={search} placeholder={message} />
+              <Search
+                ref={ref}
+                onChange={handleChange}
+                value={search}
+                placeholder={message} />
             )}
           </FormattedMessage>
           <SearchButton onClick={clearSearch}>

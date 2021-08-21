@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+// eslint-disable-next-line no-unused-vars
 const FaIcon = styled(({ small, ...props }) => <FontAwesomeIcon {...props} />)`
   position: absolute;
   top: ${({ small }) => (small ? "calc(50% - 0.3rem)" : "calc(50% - 0.9rem + 0.3rem)")};
