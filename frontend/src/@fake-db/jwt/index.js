@@ -67,7 +67,8 @@ mock.onPost('/jwt/login').reply(request => {
 
   if (user) {
     try {
-      const accessToken = jwt.sign({ id: user.id }, jwtConfig.secret, { expiresIn: jwtConfig.expireTime })
+      // const accessToken = jwt.sign({ id: user.id }, jwtConfig.secret, { expiresIn: jwtConfig.expireTime })
+      const accessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjMwODEzNjA3LCJleHAiOjE2MzM0MDU2MDd9.n9g12gepKtq2AA4tpYE7nnMbF9PIqgy_vQuQyAvc8s8'
       const refreshToken = jwt.sign({ id: user.id }, jwtConfig.refreshTokenSecret, {
         expiresIn: jwtConfig.refreshTokenExpireTime,
       })

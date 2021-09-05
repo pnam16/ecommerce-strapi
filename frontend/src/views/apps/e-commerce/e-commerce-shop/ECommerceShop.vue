@@ -14,7 +14,6 @@
                 @click="mqShallShowLeftSidebar = true"
               />
               <div class="search-results">
-                Tổng số {{ totalProducts }} sản phẩm
               </div>
             </div>
             <div class="view-options d-flex">

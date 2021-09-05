@@ -175,11 +175,11 @@
       </b-card-body>
 
       <!-- Static Content -->
-      <e-commerce-product-details-item-features />
+      <!-- <e-commerce-product-details-item-features /> -->
 
       <!-- Static Content -->
       <!-- Slider: Related Products -->
-      <e-commerce-product-details-related-products />
+      <!-- <e-commerce-product-details-related-products /> -->
     </b-card>
   </section>
 </template>
@@ -192,8 +192,8 @@ import {
   BCard, BCardBody, BRow, BCol, BImg, BCardText, BLink, BButton, BDropdown, BDropdownItem, BAlert,
 } from 'bootstrap-vue'
 import Ripple from 'vue-ripple-directive'
-import ECommerceProductDetailsItemFeatures from './ECommerceProductDetailsItemFeatures.vue'
-import ECommerceProductDetailsRelatedProducts from './ECommerceProductDetailsRelatedProducts.vue'
+// import ECommerceProductDetailsItemFeatures from './ECommerceProductDetailsItemFeatures.vue'
+// import ECommerceProductDetailsRelatedProducts from './ECommerceProductDetailsRelatedProducts.vue'
 import { useEcommerceUi } from '../useEcommerce'
 
 export default {
@@ -215,8 +215,8 @@ export default {
     BAlert,
 
     // SFC
-    ECommerceProductDetailsItemFeatures,
-    ECommerceProductDetailsRelatedProducts,
+    // ECommerceProductDetailsItemFeatures,
+    // ECommerceProductDetailsRelatedProducts,
   },
   setup() {
     const { handleCartActionClick, toggleProductInWishlist } = useEcommerceUi()
